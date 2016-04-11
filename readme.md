@@ -71,6 +71,16 @@ When `fill_tab` is set to `false`, indents using spaces, default is 2.
 npm test
 ```
 
+## develop
+
+```
+npm install
+```
+
+## contribute
+
+All code in any code-base should look like a single person typed it, no matter how many people contributed.
+
 ## but why ?
 
 Being one of <strike>JADE</strike> PUG's earliest adopters, I've implemented it in almost every single project at work.<br />
@@ -78,10 +88,6 @@ However, 5 years, 16 developers (and hundreds of jade files) later, some of our 
 That being said, this plugin will help you automate that ugly mess' conversion back into a more consistent code.
 
 *I've actually managed to run CPD afterwards to find all the possible duplicated code blocks, and then [I went nuts](https://twitter.com/pierrecholhot/status/719548050193137665)..*
-
-## contribute
-
-All code in any code-base should look like a single person typed it, no matter how many people contributed.
 
 ## license
 
