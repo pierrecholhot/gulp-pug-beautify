@@ -1,0 +1,47 @@
+{
+  "name": "gulp-pug-beautify",
+  "version": "0.0.1",
+  "description": "Gulp plugin to beautify Jade (now Pug) files with pug-beautify",
+  "license": "MIT",
+  "repository": "PierreCholhot/gulp-pug-beautify",
+  "author": {
+    "name": "Pierre Cholhot",
+    "email": "hello@pierre.cx",
+    "url": "pierre.cx"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "code",
+    "quality",
+    "style",
+    "jade",
+    "pug",
+    "clean",
+    "format",
+    "indent",
+    "beautify",
+    "beautifier"
+  ],
+  "dependencies": {
+    "gulp": "3.9.0",
+    "gulp-util": "3.0.7",
+    "object-assign": "4.0.1",
+    "pug-beautify": "0.1.1",
+    "through2": "2.0.1",
+    "vinyl": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "stream-assert": "^2.0.3"
+  }
+}
