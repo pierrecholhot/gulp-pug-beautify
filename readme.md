@@ -20,7 +20,7 @@ var gulpPugBeautify = require('gulp-pug-beautify');
 
 gulp.task('default', function () {
   return gulp.src('views/*.jade')
-    .pipe(gulpPugBeautify({ omit_empty: true }))
+    .pipe(gulpPugBeautify({ omit_empty_lines: true }))
     .pipe(gulp.dest('dist'));
 });
 ```
